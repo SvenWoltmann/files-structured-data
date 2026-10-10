@@ -11,7 +11,7 @@ public class TestObjectOutputStream1 {
       out.writeObject("Hello World äöü ß α € ↖ 🔥");
 
       // Write an array list
-      ArrayList<Integer> list = new ArrayList();
+      ArrayList<Integer> list = new ArrayList<>();
       list.add(42);
       list.add(47);
       list.add(74);

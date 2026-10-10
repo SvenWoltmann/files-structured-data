@@ -10,14 +10,14 @@ public class TestDataInputStream8 {
       // read String written by writeBytes()
       int len = in.readInt();
       byte[] bytes = new byte[len];
-      in.read(bytes, 0, len);
+      in.readFully(bytes);
       String s = new String(bytes, StandardCharsets.ISO_8859_1);
       System.out.println(s);
 
       // read String written by writeChars()
       len = in.readInt();
       bytes = new byte[len * 2];
-      in.read(bytes, 0, len * 2);
+      in.readFully(bytes);
       s = new String(bytes, StandardCharsets.UTF_16BE);
       System.out.println(s);
 
