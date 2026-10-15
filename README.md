@@ -5,6 +5,8 @@ Demo code for this article:
 * English: [Java files, part 5: Writing and reading structured data: DataOutputStream, DataInputStream](https://www.happycoders.eu/java/writing-reading-structured-data-dataoutputstream-datainputstream/)
 * German: [Dateien in Java, Teil 5: Strukturierte Daten schreiben und lesen: DataOutputStream, DataInputStream](https://www.happycoders.eu/de/java/strukturierte-daten-schreiben-lesen-dataoutputstream-datainputstream/)
 
+Writing and reading entire Java objects with `ObjectOutputStream` and `ObjectInputStream` is covered in the follow-up article [Serialization in Java](https://www.happycoders.eu/java/java-serialization/) ([German version](https://www.happycoders.eu/de/java/java-serialisierung/)); its code is in the repository [java-serialization](https://github.com/SvenWoltmann/java-serialization).
+
 
 <!-- happycoders-resources:start -->
 <!-- Generated from happycoders-website-astro/data/github-readme by scripts/content/sync-github-readmes.mjs. Edit there, not here. -->
